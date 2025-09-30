@@ -1,7 +1,7 @@
 // Settings
 // WiFi credentials
-const char* ssid = "";
-const char* password = "";
+const char* ssid = "";      //write SSID (name of your WiFi)
+const char* password = "";  //write password of your SSID
 
 // Input pin
 #define BUTTON_PIN 6
