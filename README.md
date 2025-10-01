@@ -22,4 +22,4 @@ Wake up your PC (or server) wirelessly using an ESP32.
 - Works with multiple ESP devices.  
 - LED debug helps if Serial Monitor isn’t used.  
 
-For full instructions, hardware setup, and troubleshooting, see the [Wiki](https://github.com/Adam-Cervenec/ESP32-Wake-on-Lan/wiki)).
+For full instructions, hardware setup, and troubleshooting, see the [Wiki](https://github.com/Adam-Cervenec/ESP32-Wake-on-Lan/wiki).
