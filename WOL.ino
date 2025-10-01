@@ -8,7 +8,7 @@ const char* password = "";  //write password of your SSID
 
 // IP address of the target PC and broadcast network
 const char* BROADCAST_IP = "192.168.0.255";
-const char* PC_IP = "192.168.0.11";    //for long time use, make IP address static (via DHCP reservation on router or in OS settings)
+const char* PC_IP = "192.168.0.1";    //for long time use, make IP address static (via DHCP reservation on router or in OS settings)
 byte mac[] = { 0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0xff };  // MAC address of the PC (for example aa:bb:cc:dd:ee:ff)
 const int WOL_PORT = 9; //you can try different ports (for example 0, 7, 8), if this doesn't work)
 #define PACKET_SIZE 102 // leave as is
@@ -96,7 +96,7 @@ void setup() {
   digitalWrite(LED_PIN, LED_OFF);
 
   Serial.begin(115200);
-  while (!Serial) { ; }
+  delay(1000);
 
   ledDebug(100, 2);
 
